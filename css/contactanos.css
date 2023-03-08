@@ -1,0 +1,73 @@
+#contact-us {
+  background-color: #7ED956;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#contact-us h2 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box-info {
+  background-color: #fff;
+}
+
+.box-info .gym-info {
+  text-align: center;
+  padding: 50px;
+}
+
+.box-info .gym-info img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.box-info .gym-info p {
+  font-size: 14px;
+  margin: 1px 0;
+  position: relative;
+}
+
+.box-info .gym-info a {
+  color: #000;
+  font-weight: bold;
+}
+
+.box-map {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.box-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
