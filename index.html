@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    
+    <title>Iron Life</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>IRON<span class="txtVerde">LIFE</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#suplementos" onclick="seleccionar()">suplementos</a>
+                <a href="#clases" onclick="seleccionar()">clases</a>
+                <a href="login.html" onclick="seleccionar()">membresia</a>
+                <a href="#contactanos" onclick="seleccionar()">contactanos</a>
+                
+
+            </nav>
+            <div class="user-icon">
+              <a href="login.html"><i class="fa-solid fa-user"></i></a> 
+              <!-- Aqui hay que hacer un if si el user ya se logueo mostrar la info de este, si no llevarlo a
+                login.html-->
+
+
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtVerde">OCURRA</span></h2>
+                <p>Triunfar es más facil de lo que piensas!</p>
+                
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.CROSSFIT
+                </div>
+
+                <div class="opcion">
+                    02.YOGA
+                </div>
+
+                <div class="opcion">
+                    03.BOXEO
+                </div>
+
+                <div class="opcion">
+                    04.SPINNING
+                </div>
+
+                <div class="opcion">
+                    05.BAILE LATION
+                </div>
+
+                <div class="opcion">
+                    06.PILATES
+                </div>
+
+                <div class="opcion">
+                    07.ENT. FUNCIONAL
+                </div>
+
+                <div class="opcion">
+                    08.PESAS
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- SECCION SUPLEMENTOS -->
+    <section class="suplementos" id="suplementos">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    01
+                </div>
+                <div class="info">
+                    <span class="frase">LO MEJOR EN</span>
+                    <h2>SUPLEMENTOS</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/gold.jpg" alt="gold">
+                    <div class="info">
+                        <h2>GOLD STANDARD 100 WHEY</h2>
+                        <p>Es una mezcla de proteína de suero de leche que contiene aislado de proteína de suero WPI (Whey Protein Isolates), Concentrado de Proteína de Suero de Leche e Hidrolizado de Aislado de Suero.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/xplode.jpg" alt="">
+                    <div class="info">
+                        <h2>CREATINE XPLODE POWDER</h2>
+                        <p>Es un complemento alimenticio en polvo que combina en una sola dosis una matriz de alta calidad basada en 6 formas de creatina con una solubilidad y una asimilación perfectas.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/dymatize.jpg" alt="">
+                    <div class="info">
+                        <h2>ELITE 100% WHEY DYNAMIZE</h2>
+                        <p>Es una proteína que se absorbe rápidamente, elevando la concentración de aminoácidos en la sangre lo que favorece la protección de la musculatura y el crecimiento muscular.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+
+
+
+
+    <!-- SECCION Clases-->
+    <section class="clases" id="clases">
+
+  <!-- <div class="opciones-clases"> -->
+        <h2>
+            <p>En el gimnasio Iron Life ofrecemos una amplia variedad de clases para ayudar a nuestros miembros a alcanzar sus objetivos de fitness. Nuestros profesionales altamente capacitados están aquí para guiarlo en su viaje y hacer que cada entrenamiento sea divertido y efectivo.</p>
+        </h2><br>
+
+<!-- </div> -->
+
+        <!-- First Photo Grid-->
+        <div>
+          <img src="img/crossfit.jpg" alt="CrossFit" style="width:60%">
+          <h3>Clase de CrossFit</h3>
+          <p>Profesor: Juan.<br>
+          Esta clase de entrenamiento de alta intensidad se enfoca en mejorar la resistencia, la fuerza y la velocidad. Juan es un entrenador certificado de CrossFit con más de 10 años de experiencia en el campo. Su energía positiva y su capacidad para motivar a los participantes lo convierten en un profesor popular en nuestro gimnasio.</p>
+      </div>
+
+      <div>
+          <img src="img/yoga.jpg" alt="Yoga" style="width:60%">
+          <h3>Clase de yoga</h3>
+          <p>Profesora: María. <br>
+          Esta clase es ideal para quienes buscan relajarse y rejuvenecer después de un largo día. María es una profesora de yoga certificada que ha viajado por todo el mundo para estudiar con algunos de los mejores maestros de yoga. Su clase combina asanas, meditación y respiración para ayudar a los participantes a encontrar la paz y la tranquilidad.</p>
+      </div>
+
+      <div>
+          <img src="img/boxeo.jpg" alt="Boxeo" style="width:60%">
+          <h3>Clase de boxeo</h3>
+          <p>Profesor: Carlos. <br>
+          Si estás buscando una forma emocionante de quemar calorías y aumentar tu resistencia cardiovascular, ¡esta clase es para ti! Carlos es un exboxeador profesional con más de 15 años de experiencia en el campo. Su técnica impecable y su enfoque en la seguridad hacen que su clase sea popular entre los principiantes y los atletas avanzados.</p>
+      </div>
+
+      <div>
+          <img src="img/spinning.jpg" alt="Spinning" style="width:60%">
+          <h3>Clase de spinning</h3>
+          <p>Profesora: Ana. <br>
+          Si quieres aumentar tu resistencia cardiovascular y quemar calorías rápidamente, ¡esta clase es perfecta para ti! Ana es una entrenadora de spinning certificada que ha estado enseñando esta clase en nuestro gimnasio durante más de 5 años. Su playlist de música animada y su estilo de enseñanza motivador te mantendrán pedaleando hasta el final.</p>
+      </div>
+
+      <!-- Second Photo Grid-->
+      <div>
+          <img src="img/baileLatino.jpg" alt="Baile latino" style="width:60%">
+          <h3>Clase de baile latino</h3>
+          <p>Profesor: Miguel. <br>
+          Esta clase de baile combina salsa, merengue, bachata y otros ritmos latinos para crear una experiencia divertida y emocionante. Miguel es un bailarín profesional con más de 10 años de experiencia en la enseñanza de baile. Su energía contagiosa y su capacidad para romper los pasos de baile en movimientos simples hacen que su clase sea accesible para todos.</p>
+      </div>
+
+      <div>
+          <img src="img/pilates.jpg" alt="Pilates" style="width:60%">
+          <h3>Clase de Pilates</h3>
+          <p>Profesora: Laura. <br>
+          Esta clase de bajo impacto se enfoca en fortalecer los músculos centrales y mejorar la postura. Laura es una entrenadora certificada de Pilates con más de 7 años de experiencia en la enseñanza de esta técnica. Su enfoque en la corrección de la postura y su habilidad para adaptar los ejercicios a las necesidades individuales de los participantes hacen que su clase sea muy popular entre aquellos que buscan mejorar su postura y prevenir lesiones.</p>
+      </div>
+
+      <div>
+          <img src="img/EntrenamientoFuncional.jpg" alt="Entrenamiento funcional" style="width:60%">
+          <h3>Clase de entrenamiento funcional</h3>
+          <p>Profesor: Roberto <br>
+          Esta clase se enfoca en imitar movimientos del día a día para mejorar la fuerza, la coordinación y el equilibrio. Roberto es un entrenador personal certificado que ha estado enseñando entrenamiento funcional en nuestro gimnasio durante más de 3 años. Su habilidad para personalizar los ejercicios a las necesidades</p>
+      </div>
+
+      <div>
+          <img src="img/ResistenciaPesas.jpg" alt="Resistencia Pesas" style="width:60%">
+          <h3>Clase de resistencia con pesas</h3>
+          <p>Profesor: Angel. <br>
+          El entrenamiento de resistencia con pesas se enfoca en el uso de pesas y otros equipos de resistencia para mejorar la fuerza y la resistencia muscular. Los ejercicios se centran en movimientos compuestos, como sentadillas, press de banca y levantamiento de pesas, y se adaptan a cualquier nivel de condición física. Esta clase es ideal para aquellos que buscan tonificar y fortalecer sus músculos.</p>
+      </div>
+  </section>    
+
+
+<!-- SECCION Contactanos -->
+<section class="contactanos" id="contactanos">
+  <h2>Contactanos</h2>
+  <div>
+     <div class="box box-info">
+       <div class="gym-info">
+         <img src="img/gym-image.jpg" alt="Gym Image">
+         <p>Teléfono: (+506) 2275-0656</p>
+         <p>Facebook: <a href="https://www.facebook.com/GymIronLife1/">@gymfacebook</a></p> 
+         <p>Instagram: <a href="https://www.instagram.com/gymironlife/?hl=es">@gyminstagram</a></p>
+     </div>
+ </div>
+ <div class="box box-map">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.458662149892!2d-84.0905689865222!3d9.895703758238865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e327677579ef%3A0xe9a9751397baa36a!2sGimnasio%20Iron%20Life!5e0!3m2!1ses-419!2scr!4v1678300888388!5m2!1ses-419!2scr" width="70%" height="70%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</section>
+<br><br>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    
+    <title>Iron Life</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>IRON<span class="txtVerde">LIFE</span></h1>
+            <nav id="nav">
+                <a href="index.html#inicio" onclick="seleccionar()">inicio</a>
+                <a href="index.html#suplementos" onclick="seleccionar()">suplementos</a>
+                <a href="index.html#clases" onclick="seleccionar()">clases</a>
+                <a href="index.html#login" onclick="seleccionar()">membresia</a>
+                <a href="index.html#contactanos" onclick="seleccionar()">contactanos</a>
+                
+
+            </nav>
+            <div class="user-icon">
+              <a href="login.html"><i class="fa-solid fa-user"></i></a> 
+              <!-- Aqui hay que hacer un if si el user ya se logueo mostrar la info de este, si no llevarlo a
+                login.html-->
+              <a href="carrito.html"><i class="fa fa-shopping-cart"></i></a>
+              <!-- Aqui hay que hacer un if si el user ya se logueo mostrar lo que ha agregado al carrito y opcion de pagar todo, si no, llevarlo a login.html-->
+
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+    </div>
+
+  <!-- SECCION Membresia -->
+  <section class="register" id="register">
+    <div>
+        <form action="register.php" method="post">
+            <h2>Crear cuenta</h2><br><br>
+
+            <label for="numero_socio">Número de socio:</label>
+            <input type="text" id="numero_socio" name="numero_socio" required><br><br>
+
+            <label for="nombre_completo">Nombre completo:</label>
+            <input type="text" id="nombre_completo" name="nombre_completo" required><br><br>
+
+            <label for="telefono">Número de teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required><br><br>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
+
+            <label for="fecha_proximo_pago">Fecha de próximo pago:</label>
+            <input type="date" id="fecha_proximo_pago" name="fecha_proximo_pago" required><br><br>
+
+            <label for="contacto_emergencia">Contacto de emergencia:</label>
+            <input type="text" id="contacto_emergencia" name="contacto_emergencia" required><br><br>
+
+            <button type="submit">Crear cuenta</button><br><br>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
